@@ -1,8 +1,13 @@
 ---
-layout: post
 title: JUnit Setting
+
+categories:
+  - Blog
+tags:
+  - Blog
+last_modified_at: 2019-12-05T12:43:00+09:00
 ---
-<img src="/images/fulls/02.jpg" class="fit">
+
 
 
 # Jnit 이란? #
