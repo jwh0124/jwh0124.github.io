@@ -1,15 +1,9 @@
 ---
-title: "Page Not Found"
-excerpt: "Page not found. Your pixels are in another canvas."
-permalink: /404.html
-author_profile: false
+title: "About"
+permalink: /about/
+layout: single
 ---
 
-요청하신 페이지를 찾을 수 없습니다.
+## Circle Jung
 
-<script>
-  var GOOG_FIXURL_LANG = 'en';
-  var GOOG_FIXURL_SITE = '{{ site.url }}'
-</script>
-<script src="https://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js">
-</script>
+이 블로그는 Full Stack Developer 를 꿈꾸고 성장해나가는 개인 블로그입니다. 
