@@ -2,20 +2,21 @@
 title: JUnit Setting
 
 categories:
-  - Blog
+  - Dev
 tags:
-  - Blog
+  - Java
+  - Junit
 last_modified_at: 2019-12-05T12:43:00+09:00
 ---
 
 
 
-# Jnit 이란? #
+## Jnit 이란? ##
 > 자바 언어를 위한 단위 테스팅 도구
 
-# JUnit - Maven Projects #
+## JUnit - Maven Projects ##
 
-## pom.xml ##
+### pom.xml ###
 ```
 <dependency>
     <groupId>junit</groupId>
@@ -25,12 +26,12 @@ last_modified_at: 2019-12-05T12:43:00+09:00
 </dependency>
 ```
 
-# 현재 버전 #
+## 현재 버전 ##
 - 4.12
 
-# Reference URL
+## Reference URL ##
 - <https://en.wikipedia.org/wiki/JUnit>
 
-#  TODO #
+## TODO ##
 - JUnit Definition
 - Add Example

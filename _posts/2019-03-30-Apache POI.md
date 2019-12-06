@@ -2,9 +2,10 @@
 title: Apache POI
 
 categories:
-  - Blog
+  - Dev
 tags:
-  - Blog
+  - Java
+  - Maven
 last_modified_at: 2019-12-05T12:43:00+09:00
 ---
 
