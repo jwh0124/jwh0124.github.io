@@ -1,26 +1,28 @@
 ---
-title: Used HTTP Status Code
+title: HTTP Status Code
 
 categories:
     - Dev
 tags:
     - HTTP
-late_modified_at: 2019-12-06T17:14:00
+late_modified_at: 2019-12-06T18:00:00
 ---
 
-##  HTTP Status Code ##
-### 2xx(Success) ###
+##  Used HTTP Status Code ##
 
-| Code | Code Message |
+### 2xx (Success) ###
+
+| <div style="width:100px">Code</div> | <div style="width:400px;">Code Message</div> |
 | :--- | :--- |
 | `200` | OK, 성공 |
 | `201` | Created, 새 리소스 생성 |
 | `202` | Accepted, 요청을 접수 했지만 아직 처리되지 않음 |
 | `204` | No Content, 요청을 처리했지만 Response Content X |
 
-### 4xx(Request Error) ###
 
-| Code | Code Message |
+### 4xx (Request Error) ###
+
+| <div style="width:100px">Code</div> | <div style="width:400px;">Code Message</div> |
 | :--- | :--- |
 | `400` | Bad Request, 잘못된 요청 |
 | `401` | Unauthorized, 권한 없음 |
@@ -28,9 +30,10 @@ late_modified_at: 2019-12-06T17:14:00
 | `403` | Forbidden, 서버가 요청 거부(리소스 권한 X) |
 | `404` | Not Found, 요청한 페이지를 찾을 수 없다 |
 
-### 5xx(Server Error) ###
 
-| Code | Code Message |
+### 5xx (Server Error) ###
+
+| <div style="width:100px">Code</div> | <div style="width:400px;">Code Message</div> |
 | :--- | :--- |
 | `500` | Interal Server Error, 내부 서버 오류 |
 | `501` | Not Implemented, 구현되지 않음 |
