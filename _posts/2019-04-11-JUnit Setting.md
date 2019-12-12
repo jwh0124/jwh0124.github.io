@@ -6,6 +6,11 @@ categories:
 tags:
   - Java
   - Junit
+
+toc: true
+toc_sticky: true
+toc_label: "페이지 주요 목차"
+
 last_modified_at: 2019-12-05T12:43:00+09:00
 ---
 

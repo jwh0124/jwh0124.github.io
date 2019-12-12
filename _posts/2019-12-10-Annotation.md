@@ -6,6 +6,11 @@ categories:
 tags:
     - Java
     - JPA
+
+toc: true
+toc_sticky: true
+toc_label: "페이지 주요 목차"
+
 late_modified_at: 2019-12-10T23:00:00
 ---
 

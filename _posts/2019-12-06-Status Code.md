@@ -5,6 +5,11 @@ categories:
     - Dev
 tags:
     - HTTP
+
+toc: true
+toc_sticky: true
+toc_label: "페이지 주요 목차"
+
 late_modified_at: 2019-12-06T18:00:00
 ---
 
