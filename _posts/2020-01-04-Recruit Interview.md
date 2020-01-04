@@ -6,11 +6,10 @@ categories:
 tags:
     - Interview
 late_modified_at: 2020-01-04T14:50:00
-
 published: false
 ---
 
-## Recruit Interview (Private Test Post...01/04)##
+## Recruit Interview (Private Test Post...01/04) ##
 
 ### Technical Interview ###
 
