@@ -24,7 +24,7 @@ late_modified_at: 2019-12-10T23:00:00
 | `@Getter` | Getter 메소드를 생성해준다. |
 | `@Setter` | Setter 메소드를 생성해준다. |
 | `@ToString` | ToString 메소드를 생성해준다. |
-| `@EqualsAndHashCode` |  |
+| `@EqualsAndHashCode` | Equals(두 객체의 내용이 같은지)메소드와 Hashcode(두 객체가 같은 객체인지)메소드를 생성해준다.  |
 
 
 ### JPA ###
@@ -34,14 +34,11 @@ late_modified_at: 2019-12-10T23:00:00
 
 | Annotation | Description |
 | :--- | :--------------------------------------------------------- |
-| `@Entity` |  |
-| `@Table` |  |
-| `@Id` |  |
-| `@GeneratedValue` |  |
-| `@Column` |  |
-| `@Version` |  |
-| `@MapperSuperclass` |  |
-| `@EntityListeners` |  |
+| `@Entity` | JPA를 사용해서 테이블과 Mapping할 클래스에 부여하는 Annotation (파라미터가 없는 기본 생성자 필수) |
+| `@Table` | Entity가 Mapping 할 테이블을 지정하는 Annotation(테이블 명칭 등과 같은 속성 제공) |
+| `@Id` | 기본키 지정 Annotation |
+| `@GeneratedValue` | 식별자 자동 생성 Annotation |
+| `@Column` | Database의 Column과 Mapping되는 Annotation(Column명, Constraints 등 속성 제공, 생략 가능) |
 | `@OneToOne` |  |
 | `@OneToMany` |  |
 | `@ManyToOne` |  |
