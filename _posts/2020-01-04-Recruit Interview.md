@@ -7,10 +7,10 @@ tags:
     - Interview
 
 published: false
-late_modified_at: 2020-01-04T15:00:00
+late_modified_at: 2020-01-06T16:00:00
 ---
 
-## Recruit Interview (Private Test Post...01/04) ##
+## Recruit Interview ##
 
 ### **Technical Interview** ###
 
