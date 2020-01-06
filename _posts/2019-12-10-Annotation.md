@@ -44,33 +44,25 @@ late_modified_at: 2019-12-10T23:00:00
 | `@Id` | 기본키 지정 Annotation |
 | `@GeneratedValue` | 식별자 자동 생성 Annotation |
 | `@Column` | Database의 Column과 Mapping되는 Annotation(Column명, Constraints 등 속성 제공, 생략 가능) |
-| `@OneToOne` |  |
-| `@OneToMany` |  |
-| `@ManyToOne` |  |
-| `@JoinColumn` |  |
-| `@EntityListeners` |  |
-| `@Temporal` |  |
+| `@OneToOne` | 1:1 Relationship Annotation |
+| `@OneToMany` | 1:N Relationship Annotation |
+| `@ManyToOne` | N:1 Relationship Annotation |
+| `@ManyToMany` | M:N Relationship Annotation |
+| `@JoinColumn` | Foreign key Mapping Annotation |
+| `@Temporal` | 날짜 타입(Date, Calendar) Mapping 시 사용 |
 
 
 ### Spring-Web ###
 
-| Annotation | Description |
-| :--- | :--------------------------------------------------------- |
-| `@RestController` |  |
-| `@RequestMapping` |  |
-| `@GetMapping` |  |
-| `@PostMapping` |  |
-| `@PutMapping` |  |
-| `@DeleteMapping` |  |
-| `@ExceptionHandler` |  |
-| `@RestControllerAdvice` |  |
-
-
-### Spring-data-commons ###
+> Web Application 개발에 필요한 Web Application Context와 Multipart Request등의 기능을 지원
 
 | Annotation | Description |
 | :--- | :--------------------------------------------------------- |
-| `@CreatedDate` |  |
-| `@CreatedBy` |  |
-| `@LastModifiedDate` |  |
-| `@LastModifiedBy` |  |
+| `@RestController` | @Controller 와 @ResponseBody를 합쳐놓은 Annotation |
+| `@RequestMapping` | 요청에 대해 어떤 Controller, 어떤 메소드가 처리할지를 맵핑하기 위한 Annotation |
+| `@GetMapping` | @RequestMapping(method = RequestMethod.GET) 의 축약형 |
+| `@PostMapping` | @RequestMapping(method = RequestMethod.POST) 의 축약형 |
+| `@PutMapping` | @RequestMapping(method = RequestMethod.PUT) 의 축약형 |
+| `@DeleteMapping` | @RequestMapping(method = RequestMethod.DELETE) 의 축약형 |
+| `@ExceptionHandler` | Controller 기반 Exception Handle 시 사용하는 Annotation |
+| `@RestControllerAdvice` | 예외 발생 시 json형태로 결과를 Return 하는 Annotation |
