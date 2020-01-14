@@ -66,3 +66,31 @@ late_modified_at: 2019-12-10T23:00:00
 | `@DeleteMapping` | @RequestMapping(method = RequestMethod.DELETE) 의 축약형 |
 | `@ExceptionHandler` | Controller 기반 Exception Handle 시 사용하는 Annotation |
 | `@RestControllerAdvice` | 예외 발생 시 json형태로 결과를 Return 하는 Annotation |
+
+### Spring-context ###
+
+> 
+
+| Annotation | Description |
+| :--- | :--------------------------------------------------- |
+| `@Configuration` | 클래스가 JavaConfig용 클래스임을 컴파일러에 알리는 Annotation |
+| `@Bean` | DI 컨테이너가 관리할 Bean을 생성하는 메서드, 메서드 이름이 Bean 이름 |
+| `@Import` | JavaConfig를 읽어들이기 위한 Annotation으로 @Configuration 이 붙은 클래스를 지정 |
+| `@Controller` | 웹 MVC 프레임워크인 스프링 MVC의 컨트롤러를 나타내는 Annotation |
+| `@Service` | Service Class 를 나타내는 Annotation |
+| `@Repository` | Repository class를 나타내는 Annotation |
+
+### Spring Boot ###
+
+> 실행만 하면 스프링 기반의 상용화가 가능한 애플리케이션을 쉽게 만들 수 있도록 만든 스프링 프레임워크.
+
+| Annotation | Description |
+| :--- | :---------------------------------------------------- |
+| `@EnableAutoConfiguration` | 다양한 설정이 자동으로 수행되고 기존의 스프링 애플리케이션에 필요했던 설정 파일들이 필요 없게 되는 Annotation |
+
+
+### Spring Beens ###
+
+| Annotation | Description |
+| :--- | :----------------------------------------|
+| `@Autowired` | DI Container 가 주입해야 할 필드를 의미하는 Annotation |
