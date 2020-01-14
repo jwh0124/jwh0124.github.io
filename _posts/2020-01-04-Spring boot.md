@@ -41,6 +41,9 @@ late_modified_at: 2020-01-04T16:00:00
 ### Component Scan 의 대상이 되는 Annotation ###
 > @Component, @Controller, @Service, @Repository, @Configuration
 
+### H2 Database ###
+> 자바로 구현한 관계형 데이터베이스 시스템, 내장 DB (설치 작업 없이도 사용 가능)
+
 
 
 
