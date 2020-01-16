@@ -16,6 +16,7 @@ late_modified_at: 2020-01-11T00:00:00
 ## Java Prompt Command ##
 
 ### Command ###
+
 | Command | Description |
 | :------ | :---------- |
 | abcd | test
