@@ -23,3 +23,4 @@ late_modified_at: 2020-01-11T00:00:00
 | mvn package | 실행 가능한 jar 파일로 만듬 |
 | java -jar "jar file path".jar | jar 파일 실행 |
 | java -jar "jar file path".jar --server.port=use port | use port로 jar 파일 실행 |
+| mvn dependency:tree | 추가 된 라이브러리 조회 |
