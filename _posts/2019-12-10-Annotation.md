@@ -79,6 +79,7 @@ late_modified_at: 2019-12-10T23:00:00
 | `@Controller` | 웹 MVC 프레임워크인 스프링 MVC의 컨트롤러를 나타내는 Annotation |
 | `@Service` | Service Class 를 나타내는 Annotation |
 | `@Repository` | Repository class를 나타내는 Annotation |
+| `@Validated` | 폼에서 입력되어 들어온 값을 검사 |
 
 ### Spring Boot ###
 
@@ -94,3 +95,19 @@ late_modified_at: 2019-12-10T23:00:00
 | Annotation | Description |
 | :--- | :----------------------------------------|
 | `@Autowired` | DI Container 가 주입해야 할 필드를 의미하는 Annotation |
+
+### Javax ###
+
+| Annotation | Description |
+| :--- | :----------------------------------------|
+| `@NotNull` | 입력 값을 검사하기 위한 Annotation, 필수 요소 |
+| `@Size` | 길이를 제한 하는 Annotation |
+
+### Spring-cores ###
+
+| Annotation | Description |
+| :--- | :----------------------------------------|
+| `@Order` | 입력 값을 검사하기 위한 Annotation, 필수 요소 |
+
+
+
