@@ -58,6 +58,18 @@ late_modified_at: 2020-01-14T16:40:00
 - SI(System Integration) : 시스템 구성 요소들을 순차적으로 결합하여 하나의 전체 시스템을 구축하는 과정
 - SM(System Management) : 현재 운영중인 시스템을 보완 또는 재개발하는 과정
 
+#### 어떠한 기술 / 라이브러리를 사용하여 기능을 구현했던 경험을 얘기해주세요. ####
+> Keyword: JAVA (Flyway, Swagger, Javadoc), DB (Replication, 대용량 데이터 이관)
+
+#### Github의 Branch 추출부터 배포까지의 CI/CD 프로세스를 설명해주세요
+> Keyword: Branch 나누기 -> 기능 추가 -> Push -> ...
+
+#### Spring Framework 의 정의 및 특징 ####
+> Spring Framework 특징
+
+#### JAVA 와 C# 의 차이 (feat. 경험적으로도) ####
+> JAVA 와 C# 의 차이 기술
+
 <hr>
 
 ### **Personality Interview** ###
@@ -74,7 +86,7 @@ LG이노텍, 남동발전, 농협 출입 통제 프로젝트 개발 담당자 �
 - Java, C# 등 다양한 언어와 MSSQL, MYSQL, PostgreSQL 등 여러 가지 DB 및 DBMS 경험
 
 #### 이직을 한 이유는 무엇인가요 ? ####
-> Keyword: 경영악화, 다양한 경험을 토대로 더 성장하려는 기회를 찾으려고
+> Keyword: 경영 악화, 계약 만료, 다양한 경험을 토대로 더 성장하려는 기회를 찾으려고
 
 - 기존 회사의 재직 당시 저에게 주어진 업무를 배우고, 프로젝트를 진행함에 있어 저의 능력이나 기존 회사의 시스템적인 부분에 있어서 부족함을 느끼게 되어 저의 성장을 위해 이직을 결심하게 되었습니다.
 
