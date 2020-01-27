@@ -9,7 +9,7 @@ tags:
 
 toc: true
 toc_sticky: true
-toc_lable: "페이지 주요 목차"
+toc_label: "페이지 주요 목차"
 
 last_modified_at: 2020-01-21T14:35:00
 

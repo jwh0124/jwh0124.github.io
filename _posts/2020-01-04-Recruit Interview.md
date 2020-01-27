@@ -62,13 +62,16 @@ late_modified_at: 2020-01-14T16:40:00
 > Keyword: JAVA (Flyway, Swagger, Javadoc), DB (Replication, 대용량 데이터 이관)
 
 #### Github의 Branch 추출부터 배포까지의 CI/CD 프로세스를 설명해주세요
-> Keyword: Branch 나누기 -> 기능 추가 -> Push -> ...
+> Branch -> Function Development -> Local Repository Push -> Full Request -> Build (Auto Testing) -> Deploy
 
 #### Spring Framework 의 정의 및 특징 ####
-> Spring Framework 특징
 
-#### JAVA 와 C# 의 차이 (feat. 경험적으로도) ####
-> JAVA 와 C# 의 차이 기술
+##### Spring 정의 #####
+> 자바 엔터프라이즈 개발을 편하게 해주는 경량급 오픈 소스 애플리케이션 프레임워크
+
+##### Spring 특징 #####
+- DI (Dependency Injection)
+- AOP (Aspect Oriented Programming)
 
 <hr>
 
