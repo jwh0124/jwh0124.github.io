@@ -1,6 +1,6 @@
 ---
 
-title: Spring Actuator
+title: Spring Boot Actuator
 
 categories:
     - DEV
@@ -16,16 +16,16 @@ last_modified_at: 2020-01-26T21:30:00
 
 ---
 
-## Spring Actuator ##
+## Spring Boot Actuator ##
 
-### Spring Actuator 란 ###
-> 
+### Spring Boot Actuator 란 ###
+> Spring Boot Application 에서 제공하는 여러가지 정보를 모니터링하기 쉽게 해주는 기능
 
 
 ### Maven Plugin For Spring Actuator ###
 ```
 <dependency>
-    <groupId></groupId>
-    <artifactId></artifactId>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-actuator</artifactId>
 </dependency>
 ```
