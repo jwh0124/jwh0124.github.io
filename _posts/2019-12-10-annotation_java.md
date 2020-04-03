@@ -14,9 +14,10 @@ toc_label: "페이지 주요 목차"
 late_modified_at: 2019-12-10T23:00:00
 ---
 
-##  Used Java Annotation ##
+## Used Java Annotation ##
 
 ### Lombok ###
+
 > 멤버 변수에 대한 Getter/Setter Method, Equals(), hashCode(), toString() 과 멤버 변수에 값을 설정하는 생성자 등을 자동으로 생성해주는 라이브러리
 
 | Annotation | Description |
@@ -25,14 +26,14 @@ late_modified_at: 2019-12-10T23:00:00
 | `@Builder` | Builder API 처럼 사용할 수 있도록 지원 |
 | `@AllArgsConstructor` | 모든 인자를 가진 생성자를 생성 |
 | `@NoArgsConstructor` | 인자 없는 생성자를 생성 |
-| `@Slf4j` | Simple Logging Facade For JAVA <br> 로깅에 대한 인터페이스 모음 |
+| `@Slf4j` | Simple Logging Facade For JAVA <br/> 로깅에 대한 인터페이스 모음 |
 | `@Getter` | Getter 메소드를 생성해준다. |
 | `@Setter` | Setter 메소드를 생성해준다. |
 | `@ToString` | ToString 메소드를 생성해준다. |
 | `@EqualsAndHashCode` | Equals(두 객체의 내용이 같은지)메소드와 Hashcode(두 객체가 같은 객체인지)메소드를 생성해준다.  |
 
-
 ### JPA ###
+
 * Java Persistent API
 * 자바 진영의 ORM 표준 기술
 * 자바를 이용해서 데이터를 관리(유지)하는 기법을 하나의 스펙으로 정리한 표준
@@ -51,7 +52,6 @@ late_modified_at: 2019-12-10T23:00:00
 | `@JoinColumn` | Foreign key Mapping Annotation |
 | `@Temporal` | 날짜 타입(Date, Calendar) Mapping 시 사용 |
 
-
 ### Spring-Web ###
 
 > Web Application 개발에 필요한 Web Application Context와 Multipart Request등의 기능을 지원
@@ -68,8 +68,6 @@ late_modified_at: 2019-12-10T23:00:00
 | `@RestControllerAdvice` | 예외 발생 시 json형태로 결과를 Return 하는 Annotation |
 
 ### Spring-context ###
-
-> 
 
 | Annotation | Description |
 | :--- | :--------------------------------------------------- |
@@ -89,7 +87,6 @@ late_modified_at: 2019-12-10T23:00:00
 | :--- | :---------------------------------------------------- |
 | `@EnableAutoConfiguration` | 다양한 설정이 자동으로 수행되고 기존의 스프링 애플리케이션에 필요했던 설정 파일들이 필요 없게 되는 Annotation |
 
-
 ### Spring Beens ###
 
 | Annotation | Description |
@@ -108,6 +105,3 @@ late_modified_at: 2019-12-10T23:00:00
 | Annotation | Description |
 | :--- | :----------------------------------------|
 | `@Order` | 입력 값을 검사하기 위한 Annotation, 필수 요소 |
-
-
-

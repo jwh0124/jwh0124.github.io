@@ -23,7 +23,7 @@ last_modified_at: 2020-01-16T22:30:00
 
 #### 의존성 추가 ####
 
-```
+```bash
 <dependency>
     <groupId>org.postgresql</groupId>
     <artifactId>postgresql</artifactId>
@@ -32,11 +32,10 @@ last_modified_at: 2020-01-16T22:30:00
 
 #### Spring Boot Application Properties config ####
 
-```
+```bash
 spring.datasource.hikari.maximum-pool-size=4
 
 spring.datasource.url=jdbc:postgresql://localhost:5432/springboot
 spring.datasource.username=add
 spring.datasource.password=pass
 ```
-
