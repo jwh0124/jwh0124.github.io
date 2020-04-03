@@ -1,6 +1,6 @@
 ---
 
-title : DB Connect
+title : DB Connect For Java
 
 categories:
     - DEV
@@ -15,7 +15,7 @@ toc_label: "페이지 주요 목차"
 last_modified_at: 2020-01-16T22:30:00
 ---
 
-## DB Connect ##
+## DB Connect For Java ##
 
 > Java Database Connect
 

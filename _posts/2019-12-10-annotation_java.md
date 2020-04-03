@@ -26,7 +26,7 @@ late_modified_at: 2019-12-10T23:00:00
 | `@Builder` | Builder API 처럼 사용할 수 있도록 지원 |
 | `@AllArgsConstructor` | 모든 인자를 가진 생성자를 생성 |
 | `@NoArgsConstructor` | 인자 없는 생성자를 생성 |
-| `@Slf4j` | Simple Logging Facade For JAVA <br/> 로깅에 대한 인터페이스 모음 |
+| `@Slf4j` | Simple Logging Facade For JAVA ,로깅에 대한 인터페이스 모음 |
 | `@Getter` | Getter 메소드를 생성해준다. |
 | `@Setter` | Setter 메소드를 생성해준다. |
 | `@ToString` | ToString 메소드를 생성해준다. |
