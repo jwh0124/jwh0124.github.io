@@ -1,7 +1,7 @@
 ---
 title: .Net Framework
 
-categories
+categories:
     - Dev
 tags:
     - C Sharp
