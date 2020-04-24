@@ -21,11 +21,13 @@ last_modified_at: 2020-04-22T10:15:00+09:00
 
 | Command | Command Description | Option | Option Description |
 | :------ | :------------------ | :----- | :----------------- |
-| ps | 프로세스 확인(Process Status)을 위한 명령어 | -e | 모든 프로세스 |
+| ps | 프로세스 확인(Process Status) | -e | 모든 프로세스 |
 | | | -f | Full Format |
 | | | -l | Long Format |
 | | | p, -p | 특정 PID의 프로세스 |
 | | | -u | 특정 사용자의 프로세스 |
 | ll | 디렉토리 내용 길게 보기 (ls -l의 별칭) | |
+| | | -a | 숨김 파일까지 조회 |
 | chmod | 파일 권한 부여 | | |
 | chown | 파일 소유권 변경 | | |
+| df | 파일 용량 확인 | | |
