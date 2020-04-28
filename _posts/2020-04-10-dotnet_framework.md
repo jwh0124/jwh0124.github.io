@@ -58,6 +58,7 @@ C# 코드를 빌드하면 MSIL이라는 중간 코드를 만들어낸다. 이 �
 | :--- | :--- |
 | BCL (Base Class Library) | MS에서 미리 만들어 놓은 특정 기능을 수행하는 타입 Library |
 | .Net Standard Library | .Net과 .Net Core 사이에 라이브러리의 불일치를 해결하기 위해 만든 Standard Library |
+| 직렬화(Serialization) | 객체를 저장하거나 메모리, DB 또는 파일로 전송하기 위해 객체를 byte 스트림으로 변환하는 프로세스 |
 
 #### C# 식별자 명명 규칙 ####
 
