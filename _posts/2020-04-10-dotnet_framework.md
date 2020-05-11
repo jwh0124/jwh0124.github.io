@@ -33,6 +33,7 @@ C# 코드를 빌드하면 MSIL이라는 중간 코드를 만들어낸다. 이 �
 | dotnet new | 새로운 프로젝트를 생성한다. |
 | dotnet build | 프로젝트를 빌드한다. |
 | dotnet run | 프로그램을 실행한다. |
+| dotnet publish -r (OS Version) | OS 버전에 따라 컴파일한다. |
 
 ### 자료형의 종류 ###
 
@@ -83,3 +84,11 @@ C# 코드를 빌드하면 MSIL이라는 중간 코드를 만들어낸다. 이 �
 * 실행 가능 (Runnable) 상태
 * 대기 (Suspended) 상태
 * 종료 (Stopped) 상태
+
+#### 환경변수 추가 ####
+
+```bash
+mkdir -p $HOME/dotnet && tar zxf aspnetcore-runtime-3.1.0-linux-x64.tar.gz -C $HOME/dotnet
+export DOTNET_ROOT=$HOME/dotnet
+export PATH=$PATH:$HOME/dotnet
+```
