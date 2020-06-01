@@ -1,11 +1,13 @@
 ---
-title: .Net Framework
+title: .Net Framework & .Net COre
 
 categories:
     - Dev
 tags:
     - C Sharp
     - Framework
+    - Dot net
+    - Dot net core
 
 toc: true
 toc_sticky: true
@@ -85,7 +87,11 @@ C# 코드를 빌드하면 MSIL이라는 중간 코드를 만들어낸다. 이 �
 * 대기 (Suspended) 상태
 * 종료 (Stopped) 상태
 
-#### 환경변수 추가 ####
+#### Project Build ####
+
+* dotnet publish -r <빌드할 환경> : dotnet publish -r ubuntu.16.04-arm
+
+#### 환경변수 추가 (Linux 환경) ####
 
 ```bash
 mkdir -p $HOME/dotnet && tar zxf aspnetcore-runtime-3.1.0-linux-x64.tar.gz -C $HOME/dotnet
