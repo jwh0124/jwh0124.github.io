@@ -1,4 +1,0 @@
----
-title: "PortFolio"
-permalink: /portfolio/
----
