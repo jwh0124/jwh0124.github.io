@@ -35,6 +35,8 @@ last_modified_at: 2020-04-22T10:15:00+09:00
 | systemctl | Service 관리 | start | 서비스 시작
 | | | stop | 서비스 종료 |
 | | | status | 서비스 상태 조회 |
+| ldconfig | ld library reload | | |
+| | | -v | 연결 된 ld library 조회 |
 
 ### Service Config for linux ###
 
