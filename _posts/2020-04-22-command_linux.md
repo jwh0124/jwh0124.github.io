@@ -56,3 +56,28 @@ WantedBy=multi-user.target
 ### System Loading Script Config ###
 
 > vi ~./bashrc : 환경 변수 및 파일 등 bash가 수행될 때 실행되는 함수를 제어하는 지역적인 시스템 설정과 관련된 파일
+
+### LD_LIBRARY_PATH Config ###
+
+> /etc/ld.so.conf 편집
+
+### Debian Network Setting ###
+
+```bash
+vi /etc/network/interfaces
+
+auto eth0
+iface eth0 inet static
+address 192.168.0.1
+netmask 255.255.0.0
+gateway 192.168.0.1
+dns-nameservers 8.8.8.8
+```
+
+#### 설정 파일 적용 ####
+
+```bash
+/etc/init.d/networking stop
+/etc/init.d/networking start
+/etc/init.d/networking restart
+```
