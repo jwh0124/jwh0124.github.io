@@ -94,7 +94,7 @@ C# 코드를 빌드하면 MSIL이라는 중간 코드를 만들어낸다. 이 �
 #### 환경변수 추가 (Linux 환경) ####
 
 ```bash
-mkdir -p $HOME/dotnet && tar zxf aspnetcore-runtime-3.1.0-linux-x64.tar.gz -C $HOME/dotnet
+mkdir -p $HOME/dotnet && tar zxf aspnetcore-runtime-3.1.3-linux-arm.tar.gz -C $HOME/dotnet
 export DOTNET_ROOT=$HOME/dotnet
 export PATH=$PATH:$HOME/dotnet
 ```
