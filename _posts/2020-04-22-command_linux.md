@@ -59,7 +59,7 @@ WantedBy=multi-user.target
 
 ### LD_LIBRARY_PATH Config ###
 
-> /etc/ld.so.conf 편집
+> /etc/ld.so.conf 편집, export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/cubox/Model:/cubox/cubox_api/lib
 
 ### Debian Network Setting ###
 
