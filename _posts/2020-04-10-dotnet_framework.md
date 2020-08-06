@@ -98,3 +98,7 @@ mkdir -p $HOME/dotnet && tar zxf aspnetcore-runtime-3.1.3-linux-arm.tar.gz -C $H
 export DOTNET_ROOT=$HOME/dotnet
 export PATH=$PATH:$HOME/dotnet
 ```
+
+#### Swagger API Document Method Hide ####
+
+> [ApiExplorerSettings(IgnoreApi = true)]
