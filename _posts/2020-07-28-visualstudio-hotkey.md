@@ -25,3 +25,4 @@ last_modified_at: 2020-07-28T23:39:00+09:00
 | cls | Add Class |
 | svm | Add Main Method |
 | cw | Console Writeline |
+| prop | Property |
