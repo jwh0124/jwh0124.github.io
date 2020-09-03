@@ -74,10 +74,14 @@ gateway 192.168.0.1
 dns-nameservers 8.8.8.8
 ```
 
-#### 설정 파일 적용 ####
+#### Network Service Apply ####
 
 ```bash
 /etc/init.d/networking stop
 /etc/init.d/networking start
 /etc/init.d/networking restart
 ```
+
+#### SO dependency Check ####
+
+> ldd So File Name
