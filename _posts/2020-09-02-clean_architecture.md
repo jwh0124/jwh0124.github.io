@@ -35,3 +35,18 @@ last_modified_at: 2020-09-02T10:00:00+09:00
 - 상속 (inheritance)111
 - 다형성 (polymorphism)
 - OO 지향 (아키텍트 관점) : 의존성을 원하는 방향으로 설정 할 수 있다.
+
+### SOLID 원칙 ###
+
+> 목적 : 변경에 유연하다, 이해하기 쉽다, 시스템에 사용될 수 있는 컴포넌트의 기반이 된다.
+
+- SRP (Single Responsibility Principle) : 단일 책임 원칙
+- OCP (Open-Closed Principle) : 개방-폐쇄 원칙
+- LSP (Liskov Substitution Principle) :  리스코프 치환 원칙
+- ISP (Interface Segregation Principle) : 인터페이스 분리 원칙
+- DIP (Dependency Inversion Principle) : 의존성 역전 원칙
+
+### Reference Blog ###
+
+- [Wiki](https://ko.wikipedia.org/wiki/SOLID_(%EA%B0%9D%EC%B2%B4_%EC%A7%80%ED%96%A5_%EC%84%A4%EA%B3%84))
+- [SOLID 원칙](https://victorydntmd.tistory.com/291)
