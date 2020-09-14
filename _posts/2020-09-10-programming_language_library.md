@@ -20,8 +20,16 @@ last_modified_at: 2020-09-10T14:37:00+09:00
 
 ### Programming Language Reference Library & Tools - JAVA ###
 
-> Java Library & Tools List
+- JPA (Java Persistence API)
+- Object Mapper
+- junit
+- flyway
+- spring actuator
+- log4jdbc
 
 ### Programming Language Reference Library & Tools - C# ###
 
-> C# Library & Tools List
+- EF (Entity Framework)
+- Auto Mapper
+- Serilog
+- xunit
