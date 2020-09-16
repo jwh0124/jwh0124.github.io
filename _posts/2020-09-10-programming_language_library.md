@@ -26,6 +26,7 @@ last_modified_at: 2020-09-10T14:37:00+09:00
 - flyway
 - spring actuator
 - log4jdbc
+- hamcrest
 
 ### Programming Language Reference Library & Tools - C# ###
 
