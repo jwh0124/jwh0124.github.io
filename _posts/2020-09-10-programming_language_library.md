@@ -21,7 +21,7 @@ last_modified_at: 2020-09-10T14:37:00+09:00
 ### Programming Language Reference Library & Tools - JAVA ###
 
 - JPA (Java Persistence API)
-- Object Mapper
+- Model Mapper : 서로 다른 도메인 간에 API 통신 시 DTO <-> WrapDTO 간의 변환을 담당, API 변경 시에도 변경 X
 - junit
 - flyway
 - spring actuator

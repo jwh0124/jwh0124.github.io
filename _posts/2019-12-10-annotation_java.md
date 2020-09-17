@@ -86,6 +86,9 @@ late_modified_at: 2019-12-10T23:00:00
 | Annotation | Description |
 | :--- | :---------------------------------------------------- |
 | `@EnableAutoConfiguration` | 다양한 설정이 자동으로 수행되고 기존의 스프링 애플리케이션에 필요했던 설정 파일들이 필요 없게 되는 Annotation |
+| `@WebMvcTest` | @SpringBootTest + @AutoConfigureMockMvc |
+| `@SpringBootTest` |  |
+| `@AutoConfigureMockMvc` |  |
 
 ### Spring Beens ###
 
