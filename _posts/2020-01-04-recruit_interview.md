@@ -46,7 +46,8 @@ late_modified_at: 2020-01-14T16:40:00
 - 동일성 보장 : 새로운 객체가 아니라 동일한 객체가 반환
 - 변경 감지 : 객체의 데이터가 변경되면 자동으로 Update
 - Transaction으로 인한 쓰기 지연 : 영속성 컨텍스트는 트랜잭션 범위안에서 동작
-- LazyLoading
+- LazyLoading : 지연 로딩, 필요한 시점까지 객체의 초기화를 연기시키는 디자인 패턴
+- EagerLoading : 즉시 로딩, 
 
 #### 3000만 건의 대용량 데이터에서 30~50번째 데이터를 가져올 수 있는 방법은 ####
 
@@ -80,8 +81,8 @@ late_modified_at: 2020-01-14T16:40:00
 
 ##### Spring 특징 #####
 
-- DI (Dependency Injection)
-- AOP (Aspect Oriented Programming)
+- DI (Dependency Injection) : 의존성 주입
+- AOP (Aspect Oriented Programming) : 관점 지향 프로그래밍으로 기능을 핵심 비즈니스 기능과 공통 기능으로 구분하고, 공통 기능을 개발자의 코드 밖에서 필요한 시점에 적용하는 프로그래밍 기법
 
 ---
 

@@ -46,6 +46,14 @@ last_modified_at: 2020-09-02T10:00:00+09:00
 - ISP (Interface Segregation Principle) : 인터페이스 분리 원칙
 - DIP (Dependency Inversion Principle) : 의존성 역전 원칙
 
+### 컴포넌트 (Component) ###
+
+> 배포 단위, 시스템의 구성 요소로 배포할 수 있는 가장 작은 단위
+
+- Java : jar
+- Ruby : gem
+- .Net : dll
+
 ### Reference Blog ###
 
 - [Wiki](https://ko.wikipedia.org/wiki/SOLID_(%EA%B0%9D%EC%B2%B4_%EC%A7%80%ED%96%A5_%EC%84%A4%EA%B3%84))
