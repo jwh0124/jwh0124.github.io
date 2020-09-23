@@ -110,3 +110,9 @@ late_modified_at: 2019-12-10T23:00:00
 | Annotation | Description |
 | :--- | :----------------------------------------|
 | `@Order` | 입력 값을 검사하기 위한 Annotation, 필수 요소 |
+
+### JUnit ###
+
+| Annotation | Description |
+| :--- | :----------------------------------------|
+| `@Ignore` | Test Case Ignore |
