@@ -38,6 +38,12 @@ late_modified_at: 2020-01-04T16:00:00
 - Setter를 통한 주입 : 의존성을 입력받는 Setter Method를 만들고 이를 통해 의존성을 주입
 - Interface를 통한 주입 : 의존성을 주입하는 함수를 포함한 인터페이스를 작성하고 이 인터페이스를 구현하도록 함으로써 실행시에 의존성을 주입
 
+#### DI 방법 ####
+
+- Field Injection : Field 로 선언한 뒤 @Autowired 키워드를 붙여서 의존성 주입
+- Setter Injection : Setter Method 에 @Autowired 를 붙여서 DI를 구현하는 방식
+- Constructor Injection : 가장 권장되고 있는 방법, 하나의 생성자 존재 할 경우 자동 생성 및 생성자에 @Autowired 를 붙여서 주입 (Spring 4.3 부터 생략 가능)
+
 ### IOC Container ###
 
 > IOC (Inversion of Control) 를 구현하는 프레임워크로 객체를 관리하고, 객체의 생성을 책임지고, 의존성을 관리하는 Container

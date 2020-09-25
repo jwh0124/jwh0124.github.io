@@ -33,3 +33,14 @@ last_modified_at: 2020-05-09T21:10:00+09:00
 * 파티셔닝 (partitioning) : 퍼포먼스, 가용성, 정비용이성을 목적으로 당신의 논리적인 데이터 엘리먼트들을 다수의 엔티티로 쪼개는 행위
 * 샤딩 (sharding) : 하나로 구성 될 스키마를 다수의 복제본으로 구성
 * Thread CPU 점유율 관리 : Thread Sleep 을 통해 낮출 수 있다.
+
+#### Common Process ####
+
+> 공통 프로세스 리스트 정리, Java 의 경우 AOP로 정의 가능
+
+* 로그인(Session) 관련 처리
+* 권한 체크
+* XSS (Cross site script) 방어
+* Client Program 분기 처리
+* Logging
+* Transaction
