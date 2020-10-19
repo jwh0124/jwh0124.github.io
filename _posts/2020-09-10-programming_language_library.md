@@ -34,3 +34,7 @@ last_modified_at: 2020-09-10T14:37:00+09:00
 - Auto Mapper
 - Serilog
 - xunit
+
+### Programming Language Reference Library & Tools - Golang ###
+
+- gorm (ORM Framework for golang)
