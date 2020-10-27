@@ -34,6 +34,7 @@ last_modified_at: 2020-05-09T21:10:00+09:00
 * 샤딩 (sharding) : 하나로 구성 될 스키마를 다수의 복제본으로 구성
 * Thread CPU 점유율 관리 : Thread Sleep 을 통해 낮출 수 있다.
 * Maven Scope : Compile (Default)
+* Pointer : & (Point), * (Read, Set)
 
 #### Common Process ####
 
