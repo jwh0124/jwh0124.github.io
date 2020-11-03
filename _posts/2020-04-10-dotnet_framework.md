@@ -89,7 +89,8 @@ C# 코드를 빌드하면 MSIL이라는 중간 코드를 만들어낸다. 이 �
 
 #### Project Build ####
 
-* dotnet publish -r <빌드할 환경> : dotnet publish -r ubuntu.16.04-arm
+* dotnet publish -r <빌드할 환경> (arm) : dotnet publish -r ubuntu.16.04-arm
+* dotnet publish -r <빌드할 환경> (ubuntu) : dotnet publish -r ubuntu.16.04-x64
 
 #### 환경변수 추가 (Linux 환경) ####
 

@@ -22,18 +22,18 @@ last_modified_at: 2020-09-10T14:37:00+09:00
 
 - JPA (Java Persistence API)
 - Model Mapper : 서로 다른 도메인 간에 API 통신 시 DTO <-> WrapDTO 간의 변환을 담당, API 변경 시에도 변경 X
-- junit
-- flyway
-- spring actuator
-- log4jdbc
-- hamcrest
+- JUnit : Java Test Library
+- Flyway : Database Migration Tool
+- Spring actuator : Application Status Check Library
+- Log4jdbc : Logging Library
+- Hamcrest : JUnit 에 사용하는 Match Library
 
 ### Programming Language Reference Library & Tools - C# ###
 
-- EF (Entity Framework)
-- Auto Mapper
-- Serilog
-- xunit
+- EF (Entity Framework) : C# ORM Framework
+- Auto Mapper : Java 의 Model Mapper 와 동일한 용도
+- Serilog : Logging Library
+- XUnit : C# Test Library
 
 ### Programming Language Reference Library & Tools - Golang ###
 
