@@ -35,6 +35,7 @@ last_modified_at: 2020-05-09T21:10:00+09:00
 * Thread CPU 점유율 관리 : Thread Sleep 을 통해 낮출 수 있다.
 * Maven Scope : Compile (Default)
 * Pointer : & (Point), * (Read, Set)
+* Mount : 컴퓨터에 연결 된 기기나 기억장치를 OS에 인식시켜 이용 가능한 상태로 만드는 것
 
 #### Common Process ####
 
