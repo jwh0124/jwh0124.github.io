@@ -36,6 +36,7 @@ last_modified_at: 2020-05-09T21:10:00+09:00
 * Maven Scope : Compile (Default)
 * Pointer : & (Point), * (Read, Set)
 * Mount : 컴퓨터에 연결 된 기기나 기억장치를 OS에 인식시켜 이용 가능한 상태로 만드는 것
+* Provisioning (프로비저닝) : 공급, 준비, 대비란 뜻으로 IT에서 의미는 특정 서비스를 제공 받기 위하여 서비스 실행부터 시작해 서비스를 제공 받기 전 단계까지 처리되는 일련의 절차를 말한다.
 
 #### Common Process ####
 
