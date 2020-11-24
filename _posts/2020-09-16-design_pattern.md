@@ -28,11 +28,11 @@ last_modified_at: 2020-09-16T13:12:00+09:00
 
 #### Model Component ####
 
-- Model
+- 비즈니스와 도메인 로직을 대표
 
 #### View Component ####
 
-- View
+- 사용자에게 정보를 보여 주는 역할
 
 #### Controller Component ####
 
@@ -41,3 +41,7 @@ last_modified_at: 2020-09-16T13:12:00+09:00
 - 적절한 요청 핸들러 선택
 - 핸들러가 관련 비즈니스 로직을 수행할 수 있도록 요청 라우팅
 - 오류나 예외 처리를 위한 최상위 핸들러 제공
+
+### MVVM Pattrern ###
+
+- Model-View-View Model Pattern
