@@ -19,24 +19,23 @@ last_modified_at: 2020-04-22T10:15:00+09:00
 
 ### Used Linux Command List ###
 
-| Command | Command Description | Option | Option Description |
-| :------ | :------------------ | :----- | :----------------- |
-| ps | 프로세스 확인(Process Status) | -e | 모든 프로세스 |
-| | | -f | Full Format |
-| | | -l | Long Format |
-| | | p, -p | 특정 PID의 프로세스 |
-| | | -u | 특정 사용자의 프로세스 |
-| ll | 디렉토리 내용 길게 보기 (ls -l의 별칭) | -a | 숨김 파일까지 조회 |
-| chmod | 파일 권한 부여 | | |
-| chown | 파일 소유권 변경 | | |
-| df | 파일 용량 확인 | | |
-| mv | 파일 이동 및 이름 변경 | | |
-| cp | 파일 복사 | | |
-| systemctl | Service 관리 | start | 서비스 시작
-| | | stop | 서비스 종료 |
-| | | status | 서비스 상태 조회 |
-| ldconfig | ld library reload | | |
-| | | -v | 연결 된 ld library 조회 |
+| Command   | Command Description          | Option | Option Description |
+| :-------- | :--------------------------- | :----- | :----------------- |
+| ps        | 프로세스 확인(Process Status) | -e     | 모든 프로세스 |
+|           |                              | -f     | Full Format |
+|           |                              | -l     | Long Format |
+|           |                              | p, -p  | 특정 PID의 프로세스 |
+|           |                              | -u     | 특정 사용자의 프로세스 |
+| ll        | 디렉토리 보기(ls -l의 별칭)    | -a     | 숨김 파일까지 조회 |
+| chmod     | 파일 권한 부여                |        | |
+| chown     | 파일 소유권 변경              |        | |
+| df        | 파일 용량 확인                |        | |
+| mv        | 파일 이동 및 이름 변경         |        | |
+| cp        | 파일 복사                     |        | |
+| systemctl | Service 관리                 | start   | 서비스 시작 |
+|           |                              | stop    | 서비스 종료 |
+|           |                              | status  | 서비스 상태 조회 |
+| ldconfig  | ld library reload            | -v      | 연결 된 ld library 조회 |
 
 ### Service Config for linux ###
 
@@ -84,4 +83,4 @@ dns-nameservers 8.8.8.8
 
 #### SO dependency Check ####
 
-> ldd So File Name
+> ldd [So-FileName]
