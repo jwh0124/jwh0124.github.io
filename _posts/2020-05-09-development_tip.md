@@ -34,6 +34,7 @@ last_modified_at: 2021-01-07T18:07:00+09:00
 * Function : 독립적으로 존재하며, 로직 처리 이 후 사용자가 원하는 결과를 반환
 * Method : 클래스에 종속되어 존재, 해당 클래스에 대한 객체가 생성되어야 사용할 수 있다.
 * 설정자 메서드(setter method ) -> Pointer receiver 사용
+* nohub : 프로그램과 프로세스가 백그라운드에서 동작하도록 한다.
 
 #### Common Process ####
 
