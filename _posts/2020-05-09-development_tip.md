@@ -10,7 +10,7 @@ toc: true
 toc_sticky: true
 toc_label: "페이지 주요 목차"
 
-last_modified_at: 2021-01-07T18:07:00+09:00
+last_modified_at: 2021-02-19T15:07:00+09:00
 ---
 
 ## Development Tips ##
@@ -35,6 +35,7 @@ last_modified_at: 2021-01-07T18:07:00+09:00
 * Method : 클래스에 종속되어 존재, 해당 클래스에 대한 객체가 생성되어야 사용할 수 있다.
 * 설정자 메서드(setter method ) -> Pointer receiver 사용
 * nohub : 프로그램과 프로세스가 백그라운드에서 동작하도록 한다.
+* new 연산자는 heap 영역에 충분한 공간이 있는지 확인한 후 메모리를 확보하는 역할을 한다.
 
 #### Common Process ####
 
