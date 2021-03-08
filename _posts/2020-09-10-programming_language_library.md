@@ -30,10 +30,11 @@ last_modified_at: 2020-09-10T14:37:00+09:00
 
 ### Programming Language Reference Library & Tools - C# ###
 
-- EF (Entity Framework) : C# ORM Framework
+- EF (Entity Framework) : C# ORM Framework, Database Migration Tools
 - Auto Mapper : Java 의 Model Mapper 와 동일한 용도
 - Serilog : Logging Library
 - XUnit : C# Test Library
+- Swashbuckle : Swagger UI Library
 
 ### Programming Language Reference Library & Tools - Golang ###
 
