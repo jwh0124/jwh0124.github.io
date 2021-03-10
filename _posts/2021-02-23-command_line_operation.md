@@ -37,3 +37,4 @@ last_modified_at: 2021-02-23T17:40:00+09:00
 | Kill process | kill, killall | tskill |
 | Process information | ps, top | taskmgr |
 | View free memory | free, top | mem |
+| View Path | echo $PATH | path |
