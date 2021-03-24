@@ -17,8 +17,16 @@ last_modified_at: 2020-09-03T21:16:00+09:00
 
 > Visual Studio Code Configuration List
 
-### Visual Studio Code Configuration - JAVA ###
+### JAVA ###
 
 - Java Extension Pack Install
 - Spring Boot  Extension Pack Install
 - JDK 설정 : 파일 -> 기본 설정 -> 설정 -> Java Home Setting.json 파일 -> JDK 설치 경로
+
+### Markdown Emoji Configuration ###
+
+- Markdown Emoji install
+
+### Remote Development ###
+
+- Remote Search -> Remote Development install
