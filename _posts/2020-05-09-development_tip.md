@@ -38,6 +38,7 @@ last_modified_at: 2021-02-19T15:07:00+09:00
 * new 연산자는 heap 영역에 충분한 공간이 있는지 확인한 후 메모리를 확보하는 역할을 한다.
 * NoSQL(Not Only SQL) : 다양한 비정형 데이터 저장, 키-밸류나 문서, 테이블 데이터 간 연결을 고려하는 그래프, 분산형 데이터, `샤드`라는 단위로 분산
 * datetime, timestamp : datetime은 timezone을 지원하지 X, 검색 시에도 timestamp가 더 빠름.
+* bigint, int : bigint는 8바이트, int는 4바이트 정수값으로 mysql에서 사용하는 메모리 용량이 적어진다.
 
 #### Common Process ####
 

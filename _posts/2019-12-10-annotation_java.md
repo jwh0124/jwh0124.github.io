@@ -123,3 +123,4 @@ late_modified_at: 2019-12-10T23:00:00
 | :--------- | :---------- |
 | `@ApiOperation` | Api Description |
 | `@ApiParam` | Api Parameter Detail Description |
+| `@ApiModelProperty` | API Response Attribute Description |
