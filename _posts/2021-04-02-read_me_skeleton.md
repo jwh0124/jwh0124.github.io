@@ -19,9 +19,9 @@ last_modified_at: 2021-04-02T13:18:00+09:00
 
 ### Source Code ###
 
-```cs:hello.cs
-  public static void Log(string message)
-  {
-      _logger.LogInformation(message);
-  }
+``` {.csharp filename="hello.cs" }
+public static void Log(string message)
+{
+    _logger.LogInformation(message);
+}
 ```
