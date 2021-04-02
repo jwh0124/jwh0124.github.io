@@ -19,7 +19,7 @@ last_modified_at: 2021-04-02T13:18:00+09:00
 
 ### Source Code ###
 
-```csharp {.line-numbers}
+```csharp
 public static void Log(string message)
 {
     _logger.LogInformation(message);
