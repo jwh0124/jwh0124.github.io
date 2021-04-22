@@ -41,6 +41,7 @@ last_modified_at: 2021-02-19T15:07:00+09:00
 * bigint, int : bigint는 8바이트, int는 4바이트 정수값으로 mysql에서 사용하는 메모리 용량이 적어진다.
 * equals, == 차이점 : equals는 값을 비교, ==는 객체의 주소값을 비교.
 * 기본형 (Primitive type)은  Stack 에 저장, 참조형 (Reference type)은 heap에 저장
+* Unix Timestamp 지양 이유 : 2038 Problem을 가지고 있기 때문 -> [비교글](https://velog.io/@lsb156/Instant-vs-LocalDateTime)
 
 #### Common Process ####
 
