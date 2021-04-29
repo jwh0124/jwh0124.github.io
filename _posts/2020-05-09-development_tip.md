@@ -42,6 +42,7 @@ last_modified_at: 2021-02-19T15:07:00+09:00
 * equals, == 차이점 : equals는 값을 비교, ==는 객체의 주소값을 비교.
 * 기본형 (Primitive type)은  Stack 에 저장, 참조형 (Reference type)은 heap에 저장
 * Unix Timestamp 지양 이유 : 2038 Problem을 가지고 있기 때문 -> [비교글](https://velog.io/@lsb156/Instant-vs-LocalDateTime)
+* RestAPI 만드는 이유 : Client Side를 정형화된 플랫폼이 아닌 모바일, PC, ㅇ어플리케이션 등 플랫폼에 제약을 두지 않기 위해
 
 #### Common Process ####
 
