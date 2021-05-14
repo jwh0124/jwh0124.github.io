@@ -44,6 +44,7 @@ last_modified_at: 2021-02-19T15:07:00+09:00
 * Unix Timestamp 지양 이유 : 2038 Problem을 가지고 있기 때문 -> [비교글](https://velog.io/@lsb156/Instant-vs-LocalDateTime)
 * RestAPI 만드는 이유 : Client Side를 정형화된 플랫폼이 아닌 모바일, PC, 어플리케이션 등 플랫폼에 제약을 두지 않기 위해
 * 트랜스파일(transpile) : 어떤 프로그래밍 언어로 작성된 코드를 다른 프로그래밍 언어로 된 코드로 변환하는 것
+* 스캐폴딩 : 개발을 쉽게 할 수 있도록 도와주는 일련의 자동화 과정
 
 #### Common Process ####
 
