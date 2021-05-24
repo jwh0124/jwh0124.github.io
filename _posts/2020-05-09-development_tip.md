@@ -56,3 +56,13 @@ last_modified_at: 2021-02-19T15:07:00+09:00
 * Client Program 분기 처리
 * Logging
 * Transaction
+
+#### Subquery ####
+
+* 스칼라 서브쿼리 : SELETE문에 있는 서브쿼리
+* 인라인 뷰 : FROM 절에 있는 서브쿼리
+* 서브쿼리 : WHERE 절에 있는 서브쿼리
+
+##### MariaDB Query ANALYZE ####
+
+* ANALYZE FORMAT=JSON "Query"
