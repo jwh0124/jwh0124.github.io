@@ -45,6 +45,8 @@ last_modified_at: 2021-02-19T15:07:00+09:00
 * RestAPI 만드는 이유 : Client Side를 정형화된 플랫폼이 아닌 모바일, PC, 어플리케이션 등 플랫폼에 제약을 두지 않기 위해
 * 트랜스파일(transpile) : 어떤 프로그래밍 언어로 작성된 코드를 다른 프로그래밍 언어로 된 코드로 변환하는 것
 * 스캐폴딩 : 개발을 쉽게 할 수 있도록 도와주는 일련의 자동화 과정
+* Spring MVC Controller와 Restful Web Service Controller의 차이점 : HTTP Response Body가 생성되는 방식
+* GC 란(Garbage Collector) : 메모리 관리 기법 중에 하나로, 프로그램이 동적으로 할당했던 메모리 영역 중에서 필요없게 된 영역을 해제하는 기능
 
 #### Common Process ####
 
@@ -66,3 +68,13 @@ last_modified_at: 2021-02-19T15:07:00+09:00
 ##### MariaDB Query ANALYZE ####
 
 * ANALYZE FORMAT=JSON "Query"
+
+#### Java Version ####
+
+* Java 10
+  * var keywords
+  * JVM 힙 영역을 시스템 메모리가 아닌 다른 종류의 메모리에도 할당 가능
+  * 병럴 처리 가비지 컬렉션 도입으로 인한 성능 향상
+* Java 11
+  * The Z Garbage Collector(ZGC) : 대기 시간이 낮은 확장 가능한 GC
+  * 람다 파라미터에 대한 지역변수 문법
