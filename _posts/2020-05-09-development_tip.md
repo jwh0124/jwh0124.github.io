@@ -47,6 +47,7 @@ last_modified_at: 2021-02-19T15:07:00+09:00
 * 스캐폴딩 : 개발을 쉽게 할 수 있도록 도와주는 일련의 자동화 과정
 * Spring MVC Controller와 Restful Web Service Controller의 차이점 : HTTP Response Body가 생성되는 방식
 * GC 란(Garbage Collector) : 메모리 관리 기법 중에 하나로, 프로그램이 동적으로 할당했던 메모리 영역 중에서 필요없게 된 영역을 해제하는 기능
+* CoC : 개발자들에게 결정할 개수를 줄여서 개발을 용이하고 단순하게 하지만 그렇다고 해서 유연성을 잃지 않게 하도록 하는 소프트웨어 디자인 패러다임
 
 #### Common Process ####
 
