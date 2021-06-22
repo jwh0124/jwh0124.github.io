@@ -5,7 +5,7 @@ main:
   - title: "About"
     url: https://jwh0124.github.io/about/
   - title: "Portfolio"
-    url: /_pages/portfolio.md
+    url: /_pages/portfolio.html
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
