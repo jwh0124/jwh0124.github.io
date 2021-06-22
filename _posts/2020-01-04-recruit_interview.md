@@ -67,7 +67,7 @@ late_modified_at: 2020-01-14T16:40:00
 
 #### 어떠한 기술 / 라이브러리를 사용하여 기능을 구현했던 경험을 얘기해주세요 ####
 
-> Keyword: JAVA (Flyway, Swagger, Javadoc), DB (Replication, 대용량 데이터 이관)
+> Keyword: JAVA (Flyway, Swagger, Javadoc), DB (Replication, 대용량 데이터 이관), Google Spread Sheet, Naver lucy xss servlet filter
 
 #### Github의 Branch 추출부터 배포까지의 CI/CD 프로세스를 설명해주세요 ####
 
