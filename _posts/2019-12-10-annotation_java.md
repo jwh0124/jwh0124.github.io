@@ -53,6 +53,16 @@ late_modified_at: 2019-12-10T23:00:00
 | `@Temporal` | 날짜 타입(Date, Calendar) Mapping 시 사용 |
 | `@MapperdSuperClass` | 테이블과 매핑되지 않고 자식 클래스 엔티티의 매핑정보를 상속하기 위해 사용, 엔티티가 아니기 때문에 영속성컨텍스트에서 별도로 가지고 올 수 없다. |
 | `@AttributeOverride` | Children Entity 에서 Parent Entity의 속성 내용을 변경 하고자 할 때 사용 |
+| `@AssociationOverride` | 연관 관계를 재정의 할 때 사용 |
+| `@IdClass` | 복합 키 지원, 관계형 데이터베이스에 가까운 방법 |
+| `@EmbeddedId` | 복합 키 지원, 객체 지향에 가까운 방법 |
+
+### Hibernate ###
+
+* Hibernate
+
+| Annotation | Description |
+| `@EntityListener` | 엔티티를 DB에 적용하기 이전 이후에 커스텀 콜백을 요청할 수 있는 애노테이션 |
 
 ### Spring-Web ###
 

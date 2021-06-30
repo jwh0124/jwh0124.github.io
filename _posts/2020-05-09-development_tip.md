@@ -48,6 +48,8 @@ last_modified_at: 2021-02-19T15:07:00+09:00
 * Spring MVC Controller와 Restful Web Service Controller의 차이점 : HTTP Response Body가 생성되는 방식
 * GC 란(Garbage Collector) : 메모리 관리 기법 중에 하나로, 프로그램이 동적으로 할당했던 메모리 영역 중에서 필요없게 된 영역을 해제하는 기능
 * CoC (설정보다 관례) : 개발자들에게 결정할 개수를 줄여서 개발을 용이하고 단순하게 하지만 그렇다고 해서 유연성을 잃지 않게 하도록 하는 소프트웨어 디자인 패러다임
+* 식별관계 : 부모 테이블의 기본 키를 내려받아서 자식 테이블의 기본 키 + 외래키로 사용하는 관계
+* 비식별 관계 : 부모 테이블의 기본 키를 받아서 자식 테이블의 외래 키로만 사용하는 관계
 
 #### Common Process ####
 
@@ -59,6 +61,7 @@ last_modified_at: 2021-02-19T15:07:00+09:00
 * Client Program 분기 처리
 * Logging
 * Transaction
+* Exception Process (AOP, @ControllerAdvice, @ExceptionHandler)
 
 #### Subquery ####
 
