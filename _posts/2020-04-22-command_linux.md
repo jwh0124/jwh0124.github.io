@@ -84,3 +84,8 @@ dns-nameservers 8.8.8.8
 #### SO dependency Check ####
 
 > ldd [So-FileName]
+
+#### Linux System Reference ####
+
+- systemd : Centos7부터 나온 프로세스, 부팅이 되는 과정에서 시스템을 초기화하고, 환경 설정을 담당
+- Unix System V, sys V : Centos6까지 위의 역할을 담당한 프로세스
